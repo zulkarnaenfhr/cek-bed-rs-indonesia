@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f0f8ff;
+}
+
+#daftarRumahSakit {
+    min-height: 100vh;
+    padding-bottom: 1rem;
+}
+
+.daftarRumahSakit-load {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.daftarRumahSakit-title {
+    margin-top: 3rem;
+    font-weight: 600;
+}
+
+.daftarRumahSakit-content {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.navInformation {
+    text-align: center;
+}
+
+.buttonBacktoSearch {
+    margin-top: 1em;
+    margin-left: 1.15em;
+    width: auto;
+    height: 35px;
+}
+
+.cariLokLain {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardSizing {
+        margin-left: 0.75em;
+        margin-right: 0.75em;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .daftarRumahSakit-content {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .daftarRumahSakit-content {
+        margin-right: 7%;
+        margin-left: 7%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .daftarRumahSakit-content {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .card {
+        margin: 1em 2em;
+    }
+    .buttonBacktoSearch {
+        margin-left: 3rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .daftarRumahSakit-title {
+        margin-top: 2rem;
+    }
+    .buttonBacktoSearch {
+        margin-left: 1rem;
+    }
+    .daftarRumahSakit{
+        margin-left: -15px;
+    }
+}

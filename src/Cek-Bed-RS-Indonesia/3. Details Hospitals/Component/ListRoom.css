@@ -1,0 +1,127 @@
+.cardListRoom {
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 20px;
+    float: none;
+    border: none;
+    background-color: transparent;
+    box-shadow: 1px 1px 10px #d4cece;
+}
+
+
+.buttonDropDown {
+    box-shadow: 1px 1px 10px #d4cece;
+    text-align: left;
+    border: none;
+    height: auto;
+    min-height: 70px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.bedTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.timeUpdate {
+    margin-top: -1rem;
+    font-size: 16px;
+}
+
+.dropDownIcon {
+    margin-top: 1.5rem;
+    font-size: 16px;
+}
+
+.card {
+    margin: 1em 1em;
+}
+
+.cardDetailsCollapse {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cardBed {
+    width: 130px;
+    margin-left: 2.5rem;
+}
+
+.informationCategory {
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1400px) {
+    .buttonHospitalInformation {
+        margin-left: 6em;
+    }
+    .buttonBacktoSearch2 {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .buttonCall {
+        margin-left: 0rem;
+        width: 100%;
+    }
+    .buttonHospitalInformation {
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .buttonBacktoSearch2 {
+        width: 100%;
+        margin-left: 0em;
+    }
+    .cardBed {
+        margin-left: 0rem;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .card {
+        margin: 0.5em 0em;
+    }
+    .rowGoTo {
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .buttonHospitalInformation {
+        margin-top: 0.5em;
+    }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 576px) {
+    .detailsHospital-content {
+        margin-left: -0.5em;
+        width: 104%;
+    }
+    .card {
+        margin: 1em 1em;
+    }
+    .cardDetailsCollapse {
+        text-align: center;
+    }
+    .cardBed {
+        width: auto;
+    }
+    .buttonBacktoSearch2{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .dropDownIcon {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .bedTitle {
+        font-size: 15px;
+    }
+    .timeUpdate {
+        font-size: 13px;
+    }
+}

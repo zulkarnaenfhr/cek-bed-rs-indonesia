@@ -1,0 +1,152 @@
+.card {
+    /* border-radius: 6px; */
+    width: auto;
+    margin: 1em 5em;
+    float: none;
+    /* border: 0.4px solid black; */
+    background-color: transparent;
+    box-shadow: 1px 1px 10px #d4cece;
+}
+
+.hospitalName {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.hospitalAddress {
+    font-size: 16.5px;
+}
+
+.infoUpdate {
+    font-size: 14.5px;
+}
+
+.row1-rightSide {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.informasiTersedia {
+    font-weight: 600;
+}
+
+.noAvailability {
+    font-weight: 600;
+    color: red;
+}
+
+.buttonCall {
+    width: 180px;
+    height: 35px;
+    color: white;
+    border-radius: 6px;
+    /* background-color: rgb(129, 152, 255); */
+}
+
+.buttonCall a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.row2-rightSide {
+    float: right;
+    width: auto;
+}
+
+.detailsButton {
+    color: white;
+}
+
+.buttonHospitalInformation {
+    height: 35px;
+    width: 90px;
+    /* background-color: transparent;
+     border: 1px solid black;
+    border-radius: 6px;
+    color: rgb(129, 152, 255); */
+}
+
+.buttonHospitalInformation a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.linkDetails {
+    font-weight: 500;
+}
+
+.card-text .info {
+    margin-left: 2.15em;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardSizing {
+        margin-left: 0.75em;
+        margin-right: 0.75em;
+    }
+
+    .card {
+        width: 15em;
+        margin: 2em auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .daftarRumahSakit-content {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .daftarRumahSakit-content {
+        margin-right: 7%;
+        margin-left: 7%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .daftarRumahSakit-content {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .card {
+        margin: 1em 2em;
+    }
+    .buttonBacktoSearch {
+        margin-left: 3rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 576px) {
+    .daftarRumahSakit-title {
+        margin-top: 2rem;
+    }
+    .buttonBacktoSearch {
+        margin-left: 1rem;
+    }
+    .card {
+        margin: 0em 0em;
+        margin-top: 1em;
+        width: 100%;
+    }
+    .card-row2 {
+        margin-top: -2rem;
+    }
+    .buttonCall {
+        width: 100%;
+    }
+    .row2-rightSide {
+        /* float: left; */
+        padding: auto;
+        width: auto;
+        float: left;
+        margin-top: 0.5em;
+    }
+    .buttonInformasiRight {
+        margin-left: -0.5em;
+    }
+}

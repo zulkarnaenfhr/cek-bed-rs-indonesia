@@ -1,0 +1,53 @@
+#detailsHospital {
+    min-height: 100vh;
+    padding-bottom: 1rem;
+}
+
+.detailsHospital-content {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.detailsHospital-title {
+    margin-top: 3rem;
+    font-weight: 600;
+}
+
+.navInformation {
+    text-align: center;
+}
+
+.buttonCall {
+    width: 180px;
+    height: 35px;
+}
+
+.buttonCall a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.cariRsLain {
+    color: white;
+}
+
+.buttonHospitalInformation {
+    height: 35px;
+    width: 90px;
+}
+
+.buttonBacktoSearch2 {
+    width: auto;
+    height: 35px;
+    margin-left: 5em;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.rowGoTo {
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
