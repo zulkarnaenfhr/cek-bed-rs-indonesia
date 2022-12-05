@@ -8,15 +8,10 @@ class Cekbedrs extends Component {
     render() {
         return (
             <div>
-                {/* {this.state.menuStatus === 1 ? (
-                    <Homepage onWilayahSubmit={(idProv, idKota, bedType) => this.homepageLocationSubmit(idProv, idKota, bedType)} />
-                ) : (
-                    <Hospitallist idProv={this.state.idProv} idKota={this.state.idKota} bedType={this.state.bedType} />
-                )} */}
                 <Routes>
-                    <Route path="/cek-bed-rs-indonesia-react/" element={<Homepage />} />
-                    <Route path="/cek-bed-rs-indonesia-react/hospitalList/idProv=:idProv/idKota=:idKota/bedType=:bedType" element={<Hospitallist />} />
-                    <Route path="/cek-bed-rs-indonesia-react/hospitalDetails/idProv=:idProv/idKota=:idKota/hospitalId=:hospitalId/bedType=:bedType" element={<Detailshospitals />} />
+                    <Route path="/" element={<Homepage />} />
+                    <Route path="/hospitalList/idProv=:idProv/idKota=:idKota/bedType=:bedType" element={<Hospitallist />} />
+                    <Route path="/hospitalDetails/idProv=:idProv/idKota=:idKota/hospitalId=:hospitalId/bedType=:bedType" element={<Detailshospitals />} />
                 </Routes>
             </div>
         );
